@@ -7,7 +7,7 @@
 @software: garner
 @file: ArDemonClt.py
 @time: 2017/6/10 14:35
-@desc:
+@desc: 测试
 '''
 
 from util.XmlParse import SqlXmlParse
