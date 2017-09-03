@@ -6,7 +6,7 @@
 @author: caopeng
 @license: (C) Copyright 2013-2017.
 @contact: deamoncao100@gmail.com
-@software: barn
+@software: garner
 @file: Properties.py
 @time: 2016/5/30 16:14
 """
