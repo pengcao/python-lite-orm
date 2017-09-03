@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper id="opr.ArDemonClt">
+    <sql id="getSumOrdDataSql" DESC="汇总">
+        SELECT
+            YR_WK,
+            WK_FIRST_DT,
+            WK_END_DT,
+            SUM(SUM_ORD) AS SUM_ORD,
+            SUM(SUM_ACT_VOL) AS SUM_ACT_VOL,
+            SUM(SUM_ACT_WGT) AS SUM_ACT_WGT
+        FROM
+            AR_DEMON_CLT WHERE YR_WK SQL_LARGER_THAN_EQ %s
+        GROUP BY YR_WK;
+    </sql>
+</mapper>
